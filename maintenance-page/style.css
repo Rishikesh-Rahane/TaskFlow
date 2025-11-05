@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: #e2e8f0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+}
+
+.icon {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 1.5rem;
+  animation: bounce 2s infinite;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #facc15;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #cbd5e1;
+}
+
+.contact-btn {
+  background: #facc15;
+  color: #0f172a;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  background: #eab308;
+}
+
+.countdown {
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+footer a {
+  color: #facc15;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
